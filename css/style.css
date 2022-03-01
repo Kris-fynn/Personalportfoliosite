@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+/**button,**/
+input {
+    font-family: "Roboto", sans-serif;
+}
+#headerTable {
+    width: 100%;
+}
+.logo {
+    width: 80px;
+}
+main {
+    min-height: 100vh;
+}
+nav {
+    margin-right: 16px;
+}
+header{
+    background-color: #000000;
+
+}
+a {
+    margin-right: 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+video {
+    width: 100%;
+}
+#mainTable {
+    width: 100%;
+}
+#userImage {
+    width: 500px;
+    margin: 16px;
+}
+.bioBox {
+    width: 70%;
+    text-align: left;
+}
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: medium;
+}
+.footerText {
+    text-align: center;
+    color: white;
+    padding-left:25px;
+    padding-right:25px;
+    width:40px;
+    height:40px;
+}
+footer {
+    background-color: black;
+    height: 200px;
+    
+}
+.footertable{
+    padding-left:25px;
+    padding-right:25px;
+    width:40px;
+    height:40px;
+}
+#footertitle{
+    color:#ffffff; 
+    padding-bottom: 25px;
+    text-align: center;
+    padding-right: 40px;
+}
+
+
+.aboutme{
+    text-align: center;
+}
+
+#userImage{
+    width:300px;
+}
+
+
+
+h2{
+    text-align: center;
+    margin-left: 250%;
+    color: #ffffff;
+}
+
+#my-form-button{
+    width:200px;
+    font-size:18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right,#667eea,#764ba2,#6b8dd6,#8e37d7);
+    box-shadow: 0 4px 15px 0 rgba(116,79,168,0.75);
+    outline:none;
+}
+
+#my-form-button:active{
+    width: 150px;
+}
+
+#my-form-button:hover{
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+#my-form-button:focus{
+    outline:none;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+.contact-title{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+    width: 400px;
+    padding: 0 0 20px 0;
+    border-bottom: 1.3px solid white;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width:600px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border-bottom:1px solid white;
+    color: white;
+    font-size: 18px;
+    margin-botton: 16px;
+}
+input{
+    height: 45px;
+    align-items: center;
+}
+h1 span:nth-child(1){
+    color: #667eea;
+}
+
+h1 span:nth-child(2){
+    color:#8e37d7;
+}
+
+::placeholder{
+    color: white;
+    opacity:0.7;
+}
+
+#my-form-status{
+    color: white;
+    font-weight: bold;
+}
+.form-submit-botton{
+  background: #B9DFFF;
+  color: #fff;
+  border: 1px solid #eee;
+  border-shadow:  5px 5px 5px #eee;
+  text-shadow: none;
+}
